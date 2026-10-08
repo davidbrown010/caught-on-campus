@@ -1,7 +1,7 @@
 import { env } from '$env/dynamic/private'
 
-const REDIS_URL = env.UPSTASH_REDIS_REST_URL || env.KV_REST_API_URL || ''
-const REDIS_TOKEN = env.UPSTASH_REDIS_REST_TOKEN || env.KV_REST_API_TOKEN || ''
+const REDIS_URL = env.KV_REST_API_URL || ''
+const REDIS_TOKEN = env.KV_REST_API_TOKEN || ''
 
 export const STATE_KEY = 'coc:state'
 export const DISPLAY_KEY = 'coc:display'
