@@ -351,7 +351,7 @@
 		justify-content: center;
 	}
 	.layer.has-caption .photo-wrap {
-		bottom: 20cqh;
+		/* bottom: 20cqh; */
 	}
 	.photo {
 		max-width: 100%;
